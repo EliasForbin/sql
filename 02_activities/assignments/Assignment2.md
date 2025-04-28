@@ -54,7 +54,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-We can attempt two physical design examples with the proposed architectures mentioned. 
+We can attempt two physical design examples with the proposed architectures. 
 
 Type 1: Overwiting changes to the CUSTOMER_ADDRESS table. This is simpler and requires fewer resources, making it useful where only the current address is needed. CustomerID here can act as the primary key.
 SQL Table Schema
